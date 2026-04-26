@@ -754,14 +754,5 @@
     "amount": 10,
     "type": "deposit",
     "seq": 40
-  },
-  {
-    "id": "adam-1777207931962",
-    "kid": "adam",
-    "date": "2026-04-26",
-    "description": "test5",
-    "amount": 10,
-    "type": "deposit",
-    "seq": 41
   }
 ]
