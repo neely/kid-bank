@@ -817,5 +817,14 @@
     "amount": 10,
     "type": "withdrawal",
     "seq": 22
+  },
+  {
+    "id": "william-1777213424532",
+    "kid": "william",
+    "date": "2025-09-17",
+    "description": "Ice cream",
+    "amount": 3.49,
+    "type": "withdrawal",
+    "seq": 23
   }
 ]
