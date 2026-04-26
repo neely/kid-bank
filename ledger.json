@@ -797,7 +797,7 @@
     "date": "2025-08-09",
     "description": "Barnes and noble batman",
     "amount": 65.39,
-    "type": "deposit",
+    "type": "withdrawal",
     "seq": 20
   }
 ]
