@@ -742,6 +742,7 @@ let ledger      = [];
 let investments = {};
 let activeKid   = null;
 let editingTx   = null;   // transaction being edited (null = add mode)
+let ledgerSha   = null;   // SHA of last known ledger write
 let txType      = 'deposit';
 const today     = new Date();
 
@@ -846,7 +847,8 @@ async function loadData() {
       fetchFile(LEDGER_PATH),
       fetchFile(INV_PATH).catch(() => ({ data: [], sha: null })),
     ]);
-    ledger = ledgerFile.data;
+    ledger    = ledgerFile.data;
+    ledgerSha = ledgerFile.sha;
     investments = {};
     invFile.data.forEach(i => { investments[i.kid] = i; });
     renderLanding();
@@ -1045,27 +1047,22 @@ async function saveTx() {
   setSaving('tx', true);
 
   try {
-    const { data: currentLedger, sha } = await fetchFile(LEDGER_PATH);
+    // Get fresh SHA without trusting CDN content — patch our in-memory ledger instead
+    const { sha } = await fetchFile(LEDGER_PATH);
+    ledgerSha = sha;
 
     if (editingTx) {
-      // Edit existing
-      const idx = currentLedger.findIndex(t => t.id === editingTx.id);
-      if (idx === -1) throw new Error('Transaction not found in current ledger.');
-      currentLedger[idx] = {
-        ...currentLedger[idx],
-        amount,
-        description: desc,
-        date,
-        type: txType,
-      };
+      // Edit existing in memory
+      const idx = ledger.findIndex(t => t.id === editingTx.id);
+      if (idx === -1) throw new Error('Transaction not found.');
+      ledger[idx] = { ...ledger[idx], amount, description: desc, date, type: txType };
     } else {
-      // Add new
-      const kidTxs = currentLedger.filter(t => t.kid.toLowerCase() === activeKid);
+      // Add new to memory
+      const kidTxs = ledger.filter(t => t.kid === activeKid);
       const maxSeq = kidTxs.reduce((m, t) => Math.max(m, t.seq || 0), 0);
-      const newId  = `${activeKid}-${Date.now()}`;
-      currentLedger.push({
-        id: newId,
-        kid: activeKid,  // lowercase — fetchFile already normalized all others
+      ledger.push({
+        id: `${activeKid}-${Date.now()}`,
+        kid: activeKid,
         date,
         description: desc,
         amount,
@@ -1074,11 +1071,9 @@ async function saveTx() {
       });
     }
 
-    await ghPut(LEDGER_PATH, currentLedger, sha,
+    await ghPut(LEDGER_PATH, ledger, sha,
       `${editingTx ? 'Edit' : 'Add'} transaction for ${KIDS[activeKid].label}`);
 
-    // currentLedger is already normalized (fetchFile lowercased kid+date)
-    ledger = currentLedger;
     closeSheet();
     refreshDetail();
     renderLanding();
@@ -1097,13 +1092,12 @@ async function deleteTx() {
   setSaving('tx', true);
 
   try {
-    const { data: currentLedger, sha } = await fetchFile(LEDGER_PATH);
-    const filtered = currentLedger.filter(t => t.id !== editingTx.id);
-    await ghPut(LEDGER_PATH, filtered, sha,
+    const { sha } = await fetchFile(LEDGER_PATH);
+    ledgerSha = sha;
+    ledger = ledger.filter(t => t.id !== editingTx.id);
+    await ghPut(LEDGER_PATH, ledger, sha,
       `Delete transaction ${editingTx.id} for ${KIDS[activeKid].label}`);
 
-    ledger = filtered;
-    ledger.forEach(t => { t.date = t.date.slice(0, 10); });
     closeSheet();
     refreshDetail();
     renderLanding();
