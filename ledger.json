@@ -799,5 +799,14 @@
     "amount": 65.39,
     "type": "withdrawal",
     "seq": 20
+  },
+  {
+    "id": "william-1777213361210",
+    "kid": "william",
+    "date": "2025-08-24",
+    "description": "Deals gap dragon",
+    "amount": 13.9,
+    "type": "withdrawal",
+    "seq": 21
   }
 ]
