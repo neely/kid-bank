@@ -353,9 +353,9 @@
   {
     "id": "william-opening",
     "kid": "william",
-    "date": "2025-10-05",
+    "date": "2025-02-10",
     "description": "Opening balance",
-    "amount": 670.23,
+    "amount": 810.53,
     "type": "deposit",
     "seq": 0
   },
