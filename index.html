@@ -504,8 +504,11 @@ async function loadData() {
     if (!ledgerRes.ok) throw new Error('Could not load ledger');
     ledger = await ledgerRes.json();
 
-    // Normalize dates (just in case)
-    ledger.forEach(t => { t.date = t.date.slice(0, 10); });
+    // Normalize dates and kid casing
+    ledger.forEach(t => {
+      t.date = t.date.slice(0, 10);
+      t.kid  = t.kid.toLowerCase();
+    });
 
     // Investments are optional — gracefully handle missing file
     if (invRes.ok) {
