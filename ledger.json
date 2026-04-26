@@ -727,5 +727,14 @@
     "amount": 24,
     "type": "deposit",
     "seq": 12
+  },
+  {
+    "id": "william-1777213085840",
+    "kid": "william",
+    "date": "2025-04-17",
+    "description": "Alpine coaster",
+    "amount": 30,
+    "type": "withdrawal",
+    "seq": 13
   }
 ]
