@@ -695,8 +695,8 @@
   {
     "id": "greer-26",
     "kid": "greer",
-    "date": "2026-4-3",
-    "description": "donuts",
+    "date": "2026-04-03",
+    "description": "donuts w/ Stella",
     "amount": 12.77,
     "type": "withdrawal",
     "seq": 26
