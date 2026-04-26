@@ -745,5 +745,14 @@
     "amount": 100,
     "type": "deposit",
     "seq": 14
+  },
+  {
+    "id": "william-1777213150973",
+    "kid": "william",
+    "date": "2025-06-18",
+    "description": "Folly pier cars",
+    "amount": 10,
+    "type": "withdrawal",
+    "seq": 15
   }
 ]
