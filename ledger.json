@@ -344,7 +344,7 @@
   {
     "id": "adam-38",
     "kid": "adam",
-    "date": "2026-4-3",
+    "date": "2026-04-03",
     "description": "Ice Cream",
     "amount": 6.65,
     "type": "withdrawal",
