@@ -542,7 +542,7 @@
   {
     "id": "greer-9",
     "kid": "greer",
-    "date": "2025-9-17",
+    "date": "2025-09-17",
     "description": "Ice cream",
     "amount": 3.49,
     "type": "withdrawal",
