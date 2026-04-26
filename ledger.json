@@ -835,5 +835,14 @@
     "amount": 27.61,
     "type": "withdrawal",
     "seq": 24
+  },
+  {
+    "id": "william-1777213472900",
+    "kid": "william",
+    "date": "2025-09-20",
+    "description": "Amazon honey dukes",
+    "amount": 16.34,
+    "type": "withdrawal",
+    "seq": 25
   }
 ]
