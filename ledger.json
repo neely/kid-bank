@@ -826,5 +826,14 @@
     "amount": 3.49,
     "type": "withdrawal",
     "seq": 23
+  },
+  {
+    "id": "william-1777213448967",
+    "kid": "william",
+    "date": "2025-08-17",
+    "description": "Fontana dam",
+    "amount": 27.61,
+    "type": "withdrawal",
+    "seq": 24
   }
 ]
