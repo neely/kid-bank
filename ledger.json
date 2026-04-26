@@ -772,5 +772,14 @@
     "amount": 13.73,
     "type": "withdrawal",
     "seq": 17
+  },
+  {
+    "id": "william-1777213265162",
+    "kid": "william",
+    "date": "2025-07-18",
+    "description": "Aquarium necklace",
+    "amount": 13.73,
+    "type": "withdrawal",
+    "seq": 18
   }
 ]
