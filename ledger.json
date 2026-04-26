@@ -718,14 +718,5 @@
     "amount": 18.52,
     "type": "withdrawal",
     "seq": 28
-  },
-  {
-    "id": "adam-1777207091238",
-    "kid": "adam",
-    "date": "2026-04-26",
-    "description": "test deposit",
-    "amount": 10,
-    "type": "deposit",
-    "seq": 1
   }
 ]
