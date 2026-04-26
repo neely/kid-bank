@@ -308,8 +308,8 @@
   {
     "id": "adam-34",
     "kid": "adam",
-    "date": "2026-1-20",
-    "description": "Amazon BAttery",
+    "date": "2026-01-20",
+    "description": "Amazon Battery",
     "amount": 19.61,
     "type": "withdrawal",
     "seq": 34
