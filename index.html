@@ -513,7 +513,7 @@ async function loadData() {
     // Investments are optional — gracefully handle missing file
     if (invRes.ok) {
       const invArr = await invRes.json();
-      invArr.forEach(i => { investments[i.kid] = i; });
+      invArr.forEach(i => { investments[i.kid.toLowerCase()] = i; });
     }
 
     renderLanding();
