@@ -1063,11 +1063,9 @@ async function saveTx() {
       const kidTxs = currentLedger.filter(t => t.kid.toLowerCase() === activeKid);
       const maxSeq = kidTxs.reduce((m, t) => Math.max(m, t.seq || 0), 0);
       const newId  = `${activeKid}-${Date.now()}`;
-      // Preserve original casing from ledger for kid field
-      const kidCasing = KIDS[activeKid].label; // e.g. "Adam"
       currentLedger.push({
         id: newId,
-        kid: kidCasing,
+        kid: activeKid,  // lowercase — fetchFile already normalized all others
         date,
         description: desc,
         amount,
@@ -1079,8 +1077,8 @@ async function saveTx() {
     await ghPut(LEDGER_PATH, currentLedger, sha,
       `${editingTx ? 'Edit' : 'Add'} transaction for ${KIDS[activeKid].label}`);
 
+    // currentLedger is already normalized (fetchFile lowercased kid+date)
     ledger = currentLedger;
-    ledger.forEach(t => { t.date = t.date.slice(0, 10); });
     closeSheet();
     refreshDetail();
     renderLanding();
