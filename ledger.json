@@ -718,5 +718,14 @@
     "amount": 18.52,
     "type": "withdrawal",
     "seq": 28
+  },
+  {
+    "id": "william-1777213052121",
+    "kid": "william",
+    "date": "2025-05-26",
+    "description": "Plant sale",
+    "amount": 24,
+    "type": "deposit",
+    "seq": 12
   }
 ]
