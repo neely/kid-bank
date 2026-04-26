@@ -838,9 +838,12 @@ async function loadData() {
       fetchFile(INV_PATH).catch(() => ({ data: [], sha: null })),
     ]);
     ledger = ledgerFile.data;
-    ledger.forEach(t => { t.date = t.date.slice(0, 10); });
+    ledger.forEach(t => {
+      t.date = t.date.slice(0, 10);
+      t.kid  = t.kid.toLowerCase();
+    });
     investments = {};
-    invFile.data.forEach(i => { investments[i.kid] = i; });
+    invFile.data.forEach(i => { investments[i.kid.toLowerCase()] = i; });
     renderLanding();
     if (activeKid) refreshDetail();
   } catch (e) {
