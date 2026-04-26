@@ -788,7 +788,7 @@
     "date": "2025-07-30",
     "description": "Crocs",
     "amount": 37.5,
-    "type": "deposit",
+    "type": "withdrawal",
     "seq": 19
   }
 ]
