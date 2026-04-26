@@ -506,8 +506,8 @@
   {
     "id": "greer-5",
     "kid": "greer",
-    "date": "2025-8-9",
-    "description": "B&N cookbook",
+    "date": "2025-08-09",
+    "description": "Barnes and Noble cookbook",
     "amount": 5,
     "type": "withdrawal",
     "seq": 5
