@@ -754,5 +754,14 @@
     "amount": 10,
     "type": "withdrawal",
     "seq": 15
+  },
+  {
+    "id": "william-1777213188300",
+    "kid": "william",
+    "date": "2025-07-13",
+    "description": "Park chicken fingers",
+    "amount": 5,
+    "type": "withdrawal",
+    "seq": 16
   }
 ]
