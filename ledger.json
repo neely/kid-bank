@@ -515,8 +515,8 @@
   {
     "id": "greer-6",
     "kid": "greer",
-    "date": "2025-8-17",
-    "description": "Dragon",
+    "date": "2025-08-17",
+    "description": "Dragon (deals gap)",
     "amount": 13.9,
     "type": "withdrawal",
     "seq": 6
