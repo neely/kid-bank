@@ -1,7 +1,7 @@
 [
   {
     "id": "adam-opening",
-    "kid": "Adam",
+    "kid": "adam",
     "date": "2024-12-15",
     "description": "Opening balance",
     "amount": 836.06,
@@ -10,7 +10,7 @@
   },
   {
     "id": "adam-1",
-    "kid": "Adam",
+    "kid": "adam",
     "date": "2025-01-03",
     "description": "ARC-170",
     "amount": 76.29,
@@ -19,7 +19,7 @@
   },
   {
     "id": "adam-2",
-    "kid": "Adam",
+    "kid": "adam",
     "date": "2024-12-31",
     "description": "Steam - Clone Wars III",
     "amount": 4.99,
@@ -28,7 +28,7 @@
   },
   {
     "id": "adam-3",
-    "kid": "Adam",
+    "kid": "adam",
     "date": "2025-02-07",
     "description": "Target Lego Bag",
     "amount": 3.81,
@@ -37,7 +37,7 @@
   },
   {
     "id": "adam-4",
-    "kid": "Adam",
+    "kid": "adam",
     "date": "2025-02-22",
     "description": "Steam Harry Potter (split with dad)",
     "amount": 9,
@@ -46,7 +46,7 @@
   },
   {
     "id": "adam-5",
-    "kid": "Adam",
+    "kid": "adam",
     "date": "2025-03-03",
     "description": "Amazon Greer and William Present",
     "amount": 43.58,
@@ -55,7 +55,7 @@
   },
   {
     "id": "adam-6",
-    "kid": "Adam",
+    "kid": "adam",
     "date": "2025-03-25",
     "description": "Here to Slay",
     "amount": 15.25,
@@ -64,7 +64,7 @@
   },
   {
     "id": "adam-7",
-    "kid": "Adam",
+    "kid": "adam",
     "date": "2025-03-30",
     "description": "Laurie Plants $33",
     "amount": 33,
@@ -73,7 +73,7 @@
   },
   {
     "id": "adam-8",
-    "kid": "Adam",
+    "kid": "adam",
     "date": "2025-04-14",
     "description": "Target Happy Little Dinosaurs",
     "amount": 16,
@@ -82,7 +82,7 @@
   },
   {
     "id": "adam-9",
-    "kid": "Adam",
+    "kid": "adam",
     "date": "2025-05-26",
     "description": "Plant Sale",
     "amount": 262,
@@ -91,7 +91,7 @@
   },
   {
     "id": "adam-10",
-    "kid": "Adam",
+    "kid": "adam",
     "date": "2025-05-18",
     "description": "Mountain Waterfall (Greer)",
     "amount": 5,
@@ -100,7 +100,7 @@
   },
   {
     "id": "adam-11",
-    "kid": "Adam",
+    "kid": "adam",
     "date": "2025-05-15",
     "description": "Moon Balls Amazon - adjusted to -17.61",
     "amount": 19.61,
@@ -109,7 +109,7 @@
   },
   {
     "id": "adam-12",
-    "kid": "Adam",
+    "kid": "adam",
     "date": "2025-05-20",
     "description": "Discovery Place Store",
     "amount": 17.61,
@@ -118,7 +118,7 @@
   },
   {
     "id": "adam-13",
-    "kid": "Adam",
+    "kid": "adam",
     "date": "2025-06-06",
     "description": "SD Card $13.07",
     "amount": 13.07,
@@ -127,7 +127,7 @@
   },
   {
     "id": "adam-14",
-    "kid": "Adam",
+    "kid": "adam",
     "date": "2025-04-17",
     "description": "Alpine Coaster",
     "amount": 30,
@@ -136,7 +136,7 @@
   },
   {
     "id": "adam-15",
-    "kid": "Adam",
+    "kid": "adam",
     "date": "2025-05-11",
     "description": "Deanna $100",
     "amount": 100,
@@ -145,7 +145,7 @@
   },
   {
     "id": "adam-16",
-    "kid": "Adam",
+    "kid": "adam",
     "date": "2025-07-15",
     "description": "1/2 Cheese Curds",
     "amount": 3.5,
@@ -154,7 +154,7 @@
   },
   {
     "id": "adam-17",
-    "kid": "Adam",
+    "kid": "adam",
     "date": "2025-07-28",
     "description": "McGee +100 cash",
     "amount": 100,
@@ -163,7 +163,7 @@
   },
   {
     "id": "adam-18",
-    "kid": "Adam",
+    "kid": "adam",
     "date": "2025-08-09",
     "description": "B&N Board games + book",
     "amount": 44.69,
@@ -172,7 +172,7 @@
   },
   {
     "id": "adam-19",
-    "kid": "Adam",
+    "kid": "adam",
     "date": "2025-08-09",
     "description": "Cash (Jan)",
     "amount": 50,
@@ -181,7 +181,7 @@
   },
   {
     "id": "adam-20",
-    "kid": "Adam",
+    "kid": "adam",
     "date": "2025-08-17",
     "description": "Dragon at Deal Gap",
     "amount": 13.9,
@@ -190,7 +190,7 @@
   },
   {
     "id": "adam-21",
-    "kid": "Adam",
+    "kid": "adam",
     "date": "2025-09-17",
     "description": "Apple Cash $10",
     "amount": 10,
@@ -199,7 +199,7 @@
   },
   {
     "id": "adam-22",
-    "kid": "Adam",
+    "kid": "adam",
     "date": "2025-09-25",
     "description": "Fontana Dam (corrected date 9/25) $5",
     "amount": 5,
@@ -208,7 +208,7 @@
   },
   {
     "id": "adam-23",
-    "kid": "Adam",
+    "kid": "adam",
     "date": "2025-10-05",
     "description": "Cash $5",
     "amount": 5,
@@ -217,7 +217,7 @@
   },
   {
     "id": "adam-24",
-    "kid": "Adam",
+    "kid": "adam",
     "date": "2025-10-19",
     "description": "$5 pop + $12 sushi",
     "amount": 17,
@@ -226,7 +226,7 @@
   },
   {
     "id": "adam-25",
-    "kid": "Adam",
+    "kid": "adam",
     "date": "2025-10-12",
     "description": "York Corn Cookie",
     "amount": 5,
@@ -235,7 +235,7 @@
   },
   {
     "id": "adam-26",
-    "kid": "Adam",
+    "kid": "adam",
     "date": "2025-10-22",
     "description": "Sushi - $6",
     "amount": 6,
@@ -244,7 +244,7 @@
   },
   {
     "id": "adam-27",
-    "kid": "Adam",
+    "kid": "adam",
     "date": "2025-12-26",
     "description": "W&S Smores",
     "amount": 27,
@@ -253,7 +253,7 @@
   },
   {
     "id": "adam-28",
-    "kid": "Adam",
+    "kid": "adam",
     "date": "2025-12-26",
     "description": "Dad & Nana Presents",
     "amount": 36.67,
@@ -262,7 +262,7 @@
   },
   {
     "id": "adam-29",
-    "kid": "Adam",
+    "kid": "adam",
     "date": "2025-12-26",
     "description": "Jan + loose cash (include $5)",
     "amount": 58,
@@ -271,7 +271,7 @@
   },
   {
     "id": "adam-30",
-    "kid": "Adam",
+    "kid": "adam",
     "date": "2025-12-26",
     "description": "Target Gift Card $50",
     "amount": 50,
@@ -280,7 +280,7 @@
   },
   {
     "id": "adam-31",
-    "kid": "Adam",
+    "kid": "adam",
     "date": "2025-12-26",
     "description": "Crocs",
     "amount": 38.1,
@@ -289,7 +289,7 @@
   },
   {
     "id": "adam-32",
-    "kid": "Adam",
+    "kid": "adam",
     "date": "2026-2-20",
     "description": "Miles Morales",
     "amount": 20,
@@ -298,7 +298,7 @@
   },
   {
     "id": "adam-33",
-    "kid": "Adam",
+    "kid": "adam",
     "date": "2026-3-14",
     "description": "Sonic 1/2 $10",
     "amount": 10,
@@ -307,7 +307,7 @@
   },
   {
     "id": "adam-34",
-    "kid": "Adam",
+    "kid": "adam",
     "date": "2026-1-20",
     "description": "Amazon BAttery",
     "amount": 19.61,
@@ -316,7 +316,7 @@
   },
   {
     "id": "adam-35",
-    "kid": "Adam",
+    "kid": "adam",
     "date": "2026-3-20",
     "description": "Project Wingman",
     "amount": 16.48,
@@ -325,7 +325,7 @@
   },
   {
     "id": "adam-36",
-    "kid": "Adam",
+    "kid": "adam",
     "date": "2026-3-20",
     "description": "Controllers",
     "amount": 25,
@@ -334,7 +334,7 @@
   },
   {
     "id": "adam-37",
-    "kid": "Adam",
+    "kid": "adam",
     "date": "2026-3-25",
     "description": "Buist Hoodie",
     "amount": 35,
@@ -343,7 +343,7 @@
   },
   {
     "id": "adam-38",
-    "kid": "Adam",
+    "kid": "adam",
     "date": "2026-4-3",
     "description": "Ice Cream",
     "amount": 6.65,
@@ -352,7 +352,7 @@
   },
   {
     "id": "william-opening",
-    "kid": "William",
+    "kid": "william",
     "date": "2025-10-05",
     "description": "Opening balance",
     "amount": 670.23,
@@ -361,7 +361,7 @@
   },
   {
     "id": "william-1",
-    "kid": "William",
+    "kid": "william",
     "date": "2025-10-6",
     "description": "Folly trucks",
     "amount": 19.6,
@@ -370,7 +370,7 @@
   },
   {
     "id": "william-2",
-    "kid": "William",
+    "kid": "william",
     "date": "2025-10-12",
     "description": "yorktown cookie",
     "amount": 5,
@@ -379,7 +379,7 @@
   },
   {
     "id": "william-3",
-    "kid": "William",
+    "kid": "william",
     "date": "2025-10-17",
     "description": "talking pumpkin",
     "amount": 30,
@@ -388,7 +388,7 @@
   },
   {
     "id": "william-4",
-    "kid": "William",
+    "kid": "william",
     "date": "2025-10-19",
     "description": "king of pops",
     "amount": 4,
@@ -397,7 +397,7 @@
   },
   {
     "id": "william-5",
-    "kid": "William",
+    "kid": "william",
     "date": "2025-11-23",
     "description": "miniverse",
     "amount": 10,
@@ -406,7 +406,7 @@
   },
   {
     "id": "william-6",
-    "kid": "William",
+    "kid": "william",
     "date": "2025-11-23",
     "description": "amazon phone battery",
     "amount": 19.61,
@@ -415,7 +415,7 @@
   },
   {
     "id": "william-7",
-    "kid": "William",
+    "kid": "william",
     "date": "2025-12-25",
     "description": "dad and nana present",
     "amount": 36.67,
@@ -424,7 +424,7 @@
   },
   {
     "id": "william-8",
-    "kid": "William",
+    "kid": "william",
     "date": "2025-12-25",
     "description": "granna gift",
     "amount": 50,
@@ -433,7 +433,7 @@
   },
   {
     "id": "william-9",
-    "kid": "William",
+    "kid": "william",
     "date": "2025-12-27",
     "description": "basketball",
     "amount": 19,
@@ -442,7 +442,7 @@
   },
   {
     "id": "william-10",
-    "kid": "William",
+    "kid": "william",
     "date": "2026-3-14",
     "description": "sonic",
     "amount": 10,
@@ -451,7 +451,7 @@
   },
   {
     "id": "william-11",
-    "kid": "William",
+    "kid": "william",
     "date": "2026-4-3",
     "description": "root beer float",
     "amount": 10,
@@ -460,7 +460,7 @@
   },
   {
     "id": "greer-opening",
-    "kid": "Greer",
+    "kid": "greer",
     "date": "2025-05-09",
     "description": "Opening balance",
     "amount": 759.81,
@@ -469,7 +469,7 @@
   },
   {
     "id": "greer-1",
-    "kid": "Greer",
+    "kid": "greer",
     "date": "2025-05-11",
     "description": "Deanna +100",
     "amount": 100,
@@ -478,7 +478,7 @@
   },
   {
     "id": "greer-2",
-    "kid": "Greer",
+    "kid": "greer",
     "date": "2025-6-11",
     "description": "Wonderworks",
     "amount": 9.79,
@@ -487,7 +487,7 @@
   },
   {
     "id": "greer-3",
-    "kid": "Greer",
+    "kid": "greer",
     "date": "2025-7-13",
     "description": "Park food 1/2 chz curd",
     "amount": 10.5,
@@ -496,7 +496,7 @@
   },
   {
     "id": "greer-4",
-    "kid": "Greer",
+    "kid": "greer",
     "date": "2025-7-18",
     "description": "Crocs",
     "amount": 30,
@@ -505,7 +505,7 @@
   },
   {
     "id": "greer-5",
-    "kid": "Greer",
+    "kid": "greer",
     "date": "2025-8-9",
     "description": "B&N cookbook",
     "amount": 5,
@@ -514,7 +514,7 @@
   },
   {
     "id": "greer-6",
-    "kid": "Greer",
+    "kid": "greer",
     "date": "2025-8-17",
     "description": "Dragon",
     "amount": 13.9,
@@ -523,7 +523,7 @@
   },
   {
     "id": "greer-7",
-    "kid": "Greer",
+    "kid": "greer",
     "date": "2025-8-25",
     "description": "Amazon butterfly x3",
     "amount": 32.65,
@@ -532,7 +532,7 @@
   },
   {
     "id": "greer-8",
-    "kid": "Greer",
+    "kid": "greer",
     "date": "2025-9-16",
     "description": "Woot shirts",
     "amount": 32.7,
@@ -541,7 +541,7 @@
   },
   {
     "id": "greer-9",
-    "kid": "Greer",
+    "kid": "greer",
     "date": "2025-9-17",
     "description": "Ice cream",
     "amount": 3.49,
@@ -550,7 +550,7 @@
   },
   {
     "id": "greer-10",
-    "kid": "Greer",
+    "kid": "greer",
     "date": "2025-8-17",
     "description": "Fontana Dam",
     "amount": 55.22,
@@ -559,7 +559,7 @@
   },
   {
     "id": "greer-11",
-    "kid": "Greer",
+    "kid": "greer",
     "date": "2025-9-20",
     "description": "Yarn",
     "amount": 8,
@@ -568,7 +568,7 @@
   },
   {
     "id": "greer-12",
-    "kid": "Greer",
+    "kid": "greer",
     "date": "2025-9-25",
     "description": "Target harry potter",
     "amount": 27.98,
@@ -577,7 +577,7 @@
   },
   {
     "id": "greer-13",
-    "kid": "Greer",
+    "kid": "greer",
     "date": "2025-10-4",
     "description": "King of pops",
     "amount": 5,
@@ -586,7 +586,7 @@
   },
   {
     "id": "greer-14",
-    "kid": "Greer",
+    "kid": "greer",
     "date": "2025-10-12",
     "description": "yorktown hoodie",
     "amount": 40,
@@ -595,7 +595,7 @@
   },
   {
     "id": "greer-15",
-    "kid": "Greer",
+    "kid": "greer",
     "date": "2025-10-12",
     "description": "yorktown cookie",
     "amount": 5,
@@ -604,7 +604,7 @@
   },
   {
     "id": "greer-16",
-    "kid": "Greer",
+    "kid": "greer",
     "date": "2025-10-30",
     "description": "precious plants",
     "amount": 40,
@@ -613,7 +613,7 @@
   },
   {
     "id": "greer-17",
-    "kid": "Greer",
+    "kid": "greer",
     "date": "2025-11-23",
     "description": "miniverses",
     "amount": 10,
@@ -622,7 +622,7 @@
   },
   {
     "id": "greer-18",
-    "kid": "Greer",
+    "kid": "greer",
     "date": "2025-12-25",
     "description": "dad and nana gifts",
     "amount": 36.67,
@@ -631,7 +631,7 @@
   },
   {
     "id": "greer-19",
-    "kid": "Greer",
+    "kid": "greer",
     "date": "2025-12-26",
     "description": "W&S chocolate",
     "amount": 73.96,
@@ -640,7 +640,7 @@
   },
   {
     "id": "greer-20",
-    "kid": "Greer",
+    "kid": "greer",
     "date": "2025-12-26",
     "description": "Labubu clothes",
     "amount": 16.32,
@@ -649,7 +649,7 @@
   },
   {
     "id": "greer-21",
-    "kid": "Greer",
+    "kid": "greer",
     "date": "2025-12-27",
     "description": "miniverse + stella + candy",
     "amount": 29,
@@ -658,7 +658,7 @@
   },
   {
     "id": "greer-22",
-    "kid": "Greer",
+    "kid": "greer",
     "date": "2025-12-28",
     "description": "target card dad + 50",
     "amount": 50,
@@ -667,7 +667,7 @@
   },
   {
     "id": "greer-23",
-    "kid": "Greer",
+    "kid": "greer",
     "date": "2025-12-30",
     "description": "butterfly shorts",
     "amount": 32.65,
@@ -676,7 +676,7 @@
   },
   {
     "id": "greer-24",
-    "kid": "Greer",
+    "kid": "greer",
     "date": "2026-1-7",
     "description": "butterfly shorts",
     "amount": 32.65,
@@ -685,7 +685,7 @@
   },
   {
     "id": "greer-25",
-    "kid": "Greer",
+    "kid": "greer",
     "date": "2026-3-30",
     "description": "Buist Hoodie",
     "amount": 35,
@@ -694,7 +694,7 @@
   },
   {
     "id": "greer-26",
-    "kid": "Greer",
+    "kid": "greer",
     "date": "2026-4-3",
     "description": "donuts",
     "amount": 12.77,
@@ -703,7 +703,7 @@
   },
   {
     "id": "greer-27",
-    "kid": "Greer",
+    "kid": "greer",
     "date": "2026-4-18",
     "description": "phone battery ",
     "amount": 15.25,
@@ -712,7 +712,7 @@
   },
   {
     "id": "greer-28",
-    "kid": "Greer",
+    "kid": "greer",
     "date": "2026-4-23",
     "description": "yoga pants",
     "amount": 18.52,
@@ -736,5 +736,14 @@
     "amount": 10,
     "type": "deposit",
     "seq": 2
+  },
+  {
+    "id": "adam-1777207704994",
+    "kid": "Adam",
+    "date": "2026-04-26",
+    "description": "test 3",
+    "amount": 10,
+    "type": "deposit",
+    "seq": 39
   }
 ]
