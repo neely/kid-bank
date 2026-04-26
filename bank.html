@@ -1,0 +1,1166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<meta name="color-scheme" content="light">
+<!-- Home screen icon -->
+<link rel="apple-touch-icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAMn0lEQVR42u3cMW4bVxeGYc4FV0FalXrSvXfA6V0a8A4MeB0BsoMAKd2PdpA+Uu9KobbBNJFBGGYokTOac+95ngXkt8Y//L08Q6hbENJqszt4CkArnh7uOk8hFn8hBh5AIAgAjD2AKBAAGHwAQSAAMPgAgkAAGH0AxIAAMPoAiAEBYPQBEAMCwPADIAQEgNEHQAwIAMMPgBAQAIYfACEgAAw/AEJAABh+AISAADD8AAiB1yrGHwDy7UfnLw4A8l0DmvuBDD8AQuC8pl4BGH8A7EyiC4DhB8A1INkFwPgDYH+SBYDxB8AOXabzwAHgerW9EqjuAmD8AbBPyQLA+ANgp8bReaAAML7orwTCXwCMPwCuAckCwPgDIAKSBYDxB0AEJAsA4w+ACEgWAMYfABGQLACMPwAiIFkAGH8ARECyADD+AIiAZAFg/AEQAckCwPgDIAKSBYDxB4D59rBk+mEBQATMFADGHwDm38fS8g8HACJg5gAw/gAQZy9LSz8MAIiAYBcAACCOyQPAp38AiLefpeY/PACIgGABYPwBIO6e+g4AACQ0SQD49A8AsXe11PCHBAARMO6+lsh/OABgmp31HQAASGi0APDpHwDquQKUSH8YAOBtdtcrAABI6OoA8OkfAOq7ArgAAIALgE//AJDhClDm+B8FAOaNAK8AACChiwLAp38AqPsK4AIAAC4APv0DQIYrgAsAALgA+PQPABmuAC4AAOAC4NM/AGS4ArgAAIALgE//AJDhCuACAAAuAACAAFg4/wNAjc7ttwsAALgA+PQPABmuAC4AAOACAACkDgDnfwCo36k9dwEAABcAACBtADj/A0A7frXrLgAA4AIAAKQMAOd/AGjPz/u+9EimtbsfAOBOW/v7AQAA...">
+<link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAMn0lEQVR42u3cMW4bVxeGYc4FV0FalXrSvXfA6V0a8A4MeB0BsoMAKd2PdpA+Uu9KobbBNJFBGGYokTOac+95ngXkt8Y//L08Q6hbENJqszt4CkArnh7uOk8hFn8hBh5AIAgAjD2AKBAAGHwAQSAAMPgAgkAAGH0AxIAAMPoAiAEBYPQBEAMCwPADIAQEgNEHQAwIAMMPgBAQAIYfACEgAAw/AEJAABh+AISAADD8AAiB1yrGHwDy7UfnLw4A8l0DmvuBDD8AQuC8pl4BGH8A7EyiC4DhB8A1INkFwPgDYH+SBYDxB8AOXabzwAHgerW9EqjuAmD8AbBPyQLA+ANgp8bReaAAML7orwTCXwCMPwCuAckCwPgDIAKSBYDxB0AEJAsA4w+ACEgWAMYfABGQLACMPwAiIFkAGH8ARECyADD+AIiAZAFg/AEQAckCwPgDIAKSBYDxB4D59rBk+mEBQATMFADGHwDm38fS8g8HACJg5gAw/gAQZy9LSz8MAIiAYBcAACCOyQPAp38AiLefpeY/PACIgGABYPwBIO6e+g4AACQ0SQD49A8AsXe11PCHBAARMO6+lsh/OABgmp31HQAASGi0APDpHwDquQKUSH8YAOBtdtcrAABI6OoA8OkfAOq7ArgAAIALgE//AJDhClDm+B8FAOaNAK8AACChiwLAp38AqPsK4AIAAC4APv0DQIYrgAsAALgA+PQPABmuAC4AAOAC4NM/AGS4ArgAAIALgE//AJDhCuACAAAuAACAAFg4/wNAjc7ttwsAALgA+PQPABmuAC4AAOACAACkDgDnfwCo36k9dwEAABcAACBtADj/A0A7frXrLgAA4AIAAKQMAOd/AGjPz/u+9EimtbsfAOBOW/v7AQAA...">
+<title>Neely Bank — Admin</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300;1,9..40,400&display=swap" rel="stylesheet">
+<style>
+  :root {
+    color-scheme: light;
+    --navy: #1a2e4a;
+    --navy-light: #243d60;
+    --bg: #f4f6f9;
+    --surface: #ffffff;
+    --border: #e2e8f0;
+    --text: #1a2e4a;
+    --muted: #8896a8;
+    --green: #1a9e5c;
+    --red: #d94f4f;
+    --red-bg: #fff0f0;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; -webkit-tap-highlight-color: transparent; }
+
+  html, body {
+    background: #1a2e4a !important;
+    color: #1a2e4a !important;
+    height: 100%;
+    overflow: hidden;
+  }
+  body {
+    font-family: 'DM Sans', sans-serif;
+    max-width: 430px;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  /* ══════════════════════════════
+     PAT GATE
+  ══════════════════════════════ */
+  #pat-gate {
+    position: fixed;
+    inset: 0;
+    background: var(--navy);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 32px;
+    z-index: 1000;
+    max-width: 430px;
+    margin: 0 auto;
+  }
+  #pat-gate.hidden { display: none; }
+
+  .gate-eyebrow {
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.38);
+    margin-bottom: 6px;
+    text-align: center;
+  }
+  .gate-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 8px;
+  }
+  .gate-sub {
+    font-size: 13px;
+    color: rgba(255,255,255,0.38);
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .gate-field {
+    width: 100%;
+    margin-bottom: 12px;
+  }
+  .gate-field label {
+    display: block;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.45);
+    margin-bottom: 6px;
+  }
+  .gate-input {
+    width: 100%;
+    background: rgba(255,255,255,0.07);
+    border: 1.5px solid rgba(255,255,255,0.12);
+    border-radius: 12px;
+    padding: 14px 16px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 15px;
+    color: #fff;
+    outline: none;
+    letter-spacing: 0.04em;
+    transition: border-color 0.15s;
+  }
+  .gate-input::placeholder { color: rgba(255,255,255,0.2); }
+  .gate-input:focus { border-color: rgba(255,255,255,0.35); }
+
+  .gate-error {
+    font-size: 12px;
+    color: #ff6b6b;
+    text-align: center;
+    margin-bottom: 12px;
+    min-height: 18px;
+  }
+
+  .gate-btn {
+    width: 100%;
+    background: #fff;
+    border: none;
+    border-radius: 12px;
+    padding: 15px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--navy);
+    cursor: pointer;
+    margin-top: 8px;
+    transition: opacity 0.15s, transform 0.1s;
+  }
+  .gate-btn:active { opacity: 0.85; transform: scale(0.98); }
+
+  /* ══════════════════════════════
+     APP SHELL
+  ══════════════════════════════ */
+  .app {
+    display: flex;
+    width: 200%;
+    height: 100dvh;
+    transition: transform 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .app.detail-open { transform: translateX(-50%); }
+
+  .screen {
+    width: 50%;
+    height: 100dvh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* ══════════════════════════════
+     LANDING
+  ══════════════════════════════ */
+  #screen-landing { background: var(--navy); }
+
+  .landing-header {
+    padding: 52px 24px 20px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+  .landing-header-left {}
+  .landing-eyebrow {
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.38);
+    margin-bottom: 5px;
+  }
+  .landing-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+  }
+  .landing-admin-badge {
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    background: rgba(255,255,255,0.1);
+    border: 1px solid rgba(255,255,255,0.15);
+    border-radius: 20px;
+    padding: 4px 10px;
+    color: rgba(255,255,255,0.5);
+    margin-bottom: 6px;
+  }
+
+  .kid-cards {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 8px 14px 20px;
+    overflow: hidden;
+  }
+
+  .kid-card {
+    flex: 1;
+    background: #ffffff;
+    border-radius: 22px;
+    padding: 22px 24px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+    -webkit-user-select: none; user-select: none;
+  }
+  .kid-card:active { transform: scale(0.97); box-shadow: 0 2px 10px rgba(0,0,0,0.12); }
+  .kid-card::before {
+    content: '';
+    position: absolute;
+    left: 0; top: 0; bottom: 0;
+    width: 5px;
+    background: var(--kid-color);
+    border-radius: 22px 0 0 22px;
+  }
+  .kid-card::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(135deg, color-mix(in srgb, var(--kid-color) 6%, transparent), transparent 60%);
+    pointer-events: none;
+  }
+
+  .card-name {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 6px;
+  }
+  .card-balance {
+    font-family: 'Playfair Display', serif;
+    font-size: 38px;
+    font-weight: 700;
+    color: var(--navy);
+    line-height: 1;
+    margin-bottom: 8px;
+  }
+  .card-investment {
+    font-style: italic;
+    font-size: 12px;
+    font-weight: 300;
+    color: var(--muted);
+  }
+  .card-investment strong {
+    font-style: normal;
+    font-weight: 600;
+    color: var(--kid-color);
+  }
+  .card-chevron {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--muted);
+    opacity: 0.4;
+    font-size: 20px;
+  }
+
+  /* loading/error */
+  .loading-state {
+    flex: 1; display: flex; flex-direction: column;
+    align-items: center; justify-content: center;
+    gap: 12px; color: rgba(255,255,255,0.4); font-size: 13px;
+  }
+  .spinner {
+    width: 28px; height: 28px;
+    border: 2.5px solid rgba(255,255,255,0.15);
+    border-top-color: rgba(255,255,255,0.6);
+    border-radius: 50%;
+    animation: spin 0.8s linear infinite;
+  }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  .error-state {
+    flex: 1; display: flex; flex-direction: column;
+    align-items: center; justify-content: center;
+    gap: 10px; padding: 24px;
+    color: rgba(255,255,255,0.5); font-size: 13px; text-align: center;
+  }
+  .retry-btn {
+    margin-top: 8px;
+    background: rgba(255,255,255,0.1);
+    border: 1px solid rgba(255,255,255,0.2);
+    border-radius: 20px;
+    padding: 8px 20px;
+    color: rgba(255,255,255,0.7);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 13px; cursor: pointer;
+  }
+
+  /* ══════════════════════════════
+     DETAIL SCREEN
+  ══════════════════════════════ */
+  #screen-detail { background: var(--bg); display: flex; flex-direction: column; }
+
+  .detail-header {
+    background: var(--navy);
+    padding: 52px 20px 16px;
+    flex-shrink: 0;
+  }
+  .back-btn {
+    display: flex; align-items: center; gap: 5px;
+    font-size: 13px; font-weight: 500;
+    color: rgba(255,255,255,0.55);
+    cursor: pointer; margin-bottom: 16px;
+    width: fit-content;
+    -webkit-user-select: none; user-select: none;
+  }
+  .back-btn:active { opacity: 0.6; }
+
+  .detail-kid-row {
+    display: flex; align-items: center;
+    justify-content: space-between; gap: 12px;
+    margin-bottom: 12px;
+  }
+  .detail-initial {
+    width: 44px; height: 44px; border-radius: 50%;
+    background: color-mix(in srgb, var(--active-color, #4a9eff) 22%, rgba(255,255,255,0.08));
+    border: 2px solid color-mix(in srgb, var(--active-color, #4a9eff) 55%, transparent);
+    display: flex; align-items: center; justify-content: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 18px; font-weight: 700; color: #fff; flex-shrink: 0;
+  }
+  .detail-name-wrap { flex: 1; padding-left: 12px; }
+  .detail-name {
+    font-family: 'Playfair Display', serif;
+    font-size: 24px; color: #fff; line-height: 1; margin-bottom: 3px;
+  }
+  .detail-inv {
+    font-style: italic; font-size: 11px; font-weight: 300;
+    color: rgba(255,255,255,0.42);
+  }
+  .detail-inv strong {
+    font-style: normal; font-weight: 600;
+    color: var(--active-color, #4a9eff);
+  }
+  .detail-balance {
+    font-family: 'Playfair Display', serif;
+    font-size: 30px; font-weight: 700; color: #fff;
+    text-align: right; flex-shrink: 0;
+  }
+
+  .detail-actions {
+    display: flex; gap: 8px;
+  }
+  .inv-edit-btn {
+    background: rgba(255,255,255,0.08);
+    border: 1px solid rgba(255,255,255,0.14);
+    border-radius: 20px;
+    padding: 6px 13px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 11px; font-weight: 500;
+    color: rgba(255,255,255,0.55);
+    cursor: pointer;
+    -webkit-user-select: none; user-select: none;
+  }
+  .inv-edit-btn:active { opacity: 0.7; }
+
+  .add-tx-btn {
+    background: var(--active-color, #4a9eff);
+    border: none;
+    border-radius: 20px;
+    padding: 6px 16px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 12px; font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    display: flex; align-items: center; gap: 5px;
+    -webkit-user-select: none; user-select: none;
+    transition: opacity 0.15s;
+  }
+  .add-tx-btn:active { opacity: 0.8; }
+
+  /* transaction list area */
+  .tx-list-wrap {
+    flex: 1; overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    background: var(--surface);
+  }
+
+  .date-divider {
+    padding: 13px 18px 5px;
+    font-size: 10px; font-weight: 600;
+    letter-spacing: 0.1em; text-transform: uppercase;
+    color: var(--muted);
+    background: var(--bg);
+    border-bottom: 1px solid var(--border);
+    border-top: 1px solid var(--border);
+  }
+
+  .tx-row {
+    display: flex; align-items: center; gap: 13px;
+    padding: 14px 18px;
+    border-bottom: 1px solid var(--border);
+    background: #fff; cursor: pointer;
+    transition: background 0.1s;
+  }
+  .tx-row:last-child { border-bottom: none; }
+  .tx-row:active { background: var(--bg); }
+
+  .tx-dot {
+    width: 38px; height: 38px; border-radius: 50%;
+    background: color-mix(in srgb, var(--active-color, #4a9eff) 10%, #f4f6f9);
+    border: 1.5px solid color-mix(in srgb, var(--active-color, #4a9eff) 25%, transparent);
+    display: flex; align-items: center; justify-content: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 14px; font-weight: 700;
+    color: var(--active-color, #4a9eff); flex-shrink: 0;
+  }
+  .tx-info { flex: 1; min-width: 0; }
+  .tx-desc {
+    font-size: 14px; font-weight: 500; color: var(--text);
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+  }
+  .tx-date { font-size: 11px; color: var(--muted); margin-top: 2px; }
+  .tx-amt { font-size: 15px; font-weight: 600; flex-shrink: 0; }
+  .tx-amt.deposit    { color: var(--green); }
+  .tx-amt.withdrawal { color: var(--red); }
+
+  .empty-state {
+    padding: 60px 20px; text-align: center;
+    color: var(--muted); font-size: 13px;
+  }
+
+  /* ══════════════════════════════
+     BOTTOM SHEET
+  ══════════════════════════════ */
+  .sheet-backdrop {
+    position: fixed; inset: 0;
+    background: rgba(0,0,0,0.45);
+    z-index: 100;
+    opacity: 0; pointer-events: none;
+    transition: opacity 0.25s ease;
+    max-width: 430px; margin: 0 auto;
+  }
+  .sheet-backdrop.open { opacity: 1; pointer-events: auto; }
+
+  .bottom-sheet {
+    position: fixed;
+    bottom: 0; left: 50%;
+    transform: translateX(-50%) translateY(100%);
+    width: 100%; max-width: 430px;
+    background: var(--surface);
+    border-radius: 24px 24px 0 0;
+    z-index: 101;
+    padding: 0 0 env(safe-area-inset-bottom, 16px);
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    max-height: 92dvh;
+    display: flex; flex-direction: column;
+  }
+  .bottom-sheet.open { transform: translateX(-50%) translateY(0); }
+
+  .sheet-handle {
+    width: 36px; height: 4px;
+    background: var(--border);
+    border-radius: 2px;
+    margin: 12px auto 0;
+    flex-shrink: 0;
+  }
+  .sheet-header {
+    padding: 16px 20px 12px;
+    display: flex; align-items: center;
+    justify-content: space-between;
+    flex-shrink: 0;
+    border-bottom: 1px solid var(--border);
+  }
+  .sheet-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px; color: var(--navy);
+  }
+  .sheet-close {
+    width: 28px; height: 28px; border-radius: 50%;
+    background: var(--bg); border: none;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 16px; color: var(--muted);
+    cursor: pointer; flex-shrink: 0;
+  }
+  .sheet-close:active { opacity: 0.6; }
+
+  .sheet-body {
+    padding: 20px;
+    overflow-y: auto;
+    flex: 1;
+  }
+
+  /* type toggle */
+  .type-toggle {
+    display: flex; gap: 0;
+    background: var(--bg);
+    border-radius: 12px;
+    padding: 4px;
+    margin-bottom: 20px;
+  }
+  .type-btn {
+    flex: 1; padding: 10px;
+    border: none; border-radius: 9px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px; font-weight: 600;
+    cursor: pointer; transition: all 0.15s;
+    background: transparent;
+    color: var(--muted);
+  }
+  .type-btn.active-deposit    { background: #fff; color: var(--green); box-shadow: 0 1px 4px rgba(0,0,0,0.08); }
+  .type-btn.active-withdrawal { background: #fff; color: var(--red);   box-shadow: 0 1px 4px rgba(0,0,0,0.08); }
+
+  /* form fields */
+  .field { margin-bottom: 16px; }
+  .field label {
+    display: block;
+    font-size: 11px; font-weight: 600;
+    letter-spacing: 0.08em; text-transform: uppercase;
+    color: var(--muted); margin-bottom: 6px;
+  }
+  .field input {
+    width: 100%;
+    background: var(--bg);
+    border: 1.5px solid var(--border);
+    border-radius: 11px;
+    padding: 12px 14px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 15px; color: var(--text);
+    outline: none; transition: border-color 0.15s;
+  }
+  .field input:focus { border-color: var(--active-color, #4a9eff); }
+  .field input[type="number"] { font-size: 22px; font-weight: 600; }
+
+  .amount-wrap { position: relative; }
+  .amount-prefix {
+    position: absolute; left: 14px; top: 50%;
+    transform: translateY(-50%);
+    font-size: 22px; font-weight: 600; color: var(--muted);
+    pointer-events: none;
+  }
+  .amount-wrap input { padding-left: 28px; }
+
+  /* sheet buttons */
+  .sheet-save-btn {
+    width: 100%; padding: 15px;
+    background: var(--active-color, #4a9eff);
+    border: none; border-radius: 12px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 15px; font-weight: 600; color: #fff;
+    cursor: pointer; margin-top: 4px;
+    transition: opacity 0.15s, transform 0.1s;
+    display: flex; align-items: center; justify-content: center; gap: 8px;
+  }
+  .sheet-save-btn:active { opacity: 0.85; transform: scale(0.98); }
+  .sheet-save-btn:disabled { opacity: 0.5; cursor: not-allowed; }
+
+  .sheet-delete-btn {
+    width: 100%; padding: 13px;
+    background: var(--red-bg);
+    border: 1.5px solid #fcd0d0;
+    border-radius: 12px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px; font-weight: 600; color: var(--red);
+    cursor: pointer; margin-top: 10px;
+    transition: opacity 0.15s;
+  }
+  .sheet-delete-btn:active { opacity: 0.7; }
+
+  .saving-spinner {
+    width: 16px; height: 16px;
+    border: 2px solid rgba(255,255,255,0.35);
+    border-top-color: #fff;
+    border-radius: 50%;
+    animation: spin 0.7s linear infinite;
+    display: none;
+  }
+
+  .sheet-error {
+    font-size: 12px; color: var(--red);
+    text-align: center; margin-top: 10px;
+    min-height: 16px;
+  }
+</style>
+</head>
+<body>
+
+<!-- PAT Gate -->
+<div id="pat-gate">
+  <div class="gate-eyebrow">Parent Access</div>
+  <div class="gate-title">Neely Bank</div>
+  <div class="gate-sub">Enter your GitHub token to continue</div>
+  <div class="gate-field">
+    <label>Personal Access Token</label>
+    <input class="gate-input" id="pat-input" type="password"
+           placeholder="ghp_xxxxxxxxxxxx"
+           autocomplete="off" autocorrect="off" spellcheck="false">
+  </div>
+  <div class="gate-error" id="gate-error"></div>
+  <button class="gate-btn" onclick="submitPat()">Unlock</button>
+</div>
+
+<!-- App (hidden until PAT validated) -->
+<div class="app" id="app" style="visibility:hidden">
+
+  <!-- SCREEN 1: Landing -->
+  <div class="screen" id="screen-landing">
+    <div class="landing-header">
+      <div class="landing-header-left">
+        <div class="landing-eyebrow">Family Banking</div>
+        <div class="landing-title">Neely Bank</div>
+      </div>
+      <div class="landing-admin-badge">Admin</div>
+    </div>
+    <div id="landing-body" class="kid-cards">
+      <div class="loading-state"><div class="spinner"></div><span>Loading…</span></div>
+    </div>
+  </div>
+
+  <!-- SCREEN 2: Detail -->
+  <div class="screen" id="screen-detail">
+    <div class="detail-header">
+      <div class="back-btn" onclick="goBack()">‹ &nbsp;All Accounts</div>
+      <div class="detail-kid-row">
+        <div class="detail-initial" id="detail-initial"></div>
+        <div class="detail-name-wrap">
+          <div class="detail-name"    id="detail-name"></div>
+          <div class="detail-inv"     id="detail-inv"></div>
+        </div>
+        <div class="detail-balance"   id="detail-balance"></div>
+      </div>
+      <div class="detail-actions">
+        <button class="inv-edit-btn" onclick="openInvSheet()">Edit Investment</button>
+        <button class="add-tx-btn"   onclick="openAddSheet()">＋ Add</button>
+      </div>
+    </div>
+    <div class="tx-list-wrap" id="tx-list"></div>
+  </div>
+
+</div>
+
+<!-- Sheet backdrop -->
+<div class="sheet-backdrop" id="sheet-backdrop" onclick="closeSheet()"></div>
+
+<!-- Transaction bottom sheet -->
+<div class="bottom-sheet" id="tx-sheet">
+  <div class="sheet-handle"></div>
+  <div class="sheet-header">
+    <div class="sheet-title" id="sheet-title">Add Transaction</div>
+    <button class="sheet-close" onclick="closeSheet()">✕</button>
+  </div>
+  <div class="sheet-body">
+    <div class="type-toggle">
+      <button class="type-btn active-deposit" id="btn-deposit"
+              onclick="setType('deposit')">Deposit</button>
+      <button class="type-btn" id="btn-withdrawal"
+              onclick="setType('withdrawal')">Withdrawal</button>
+    </div>
+    <div class="field">
+      <label>Amount</label>
+      <div class="amount-wrap">
+        <span class="amount-prefix">$</span>
+        <input type="number" id="f-amount" min="0.01" step="0.01"
+               placeholder="0.00" inputmode="decimal">
+      </div>
+    </div>
+    <div class="field">
+      <label>Description</label>
+      <input type="text" id="f-desc" placeholder="e.g. Allowance" maxlength="80">
+    </div>
+    <div class="field">
+      <label>Date</label>
+      <input type="date" id="f-date">
+    </div>
+    <button class="sheet-save-btn" id="save-tx-btn" onclick="saveTx()">
+      <div class="saving-spinner" id="tx-spinner"></div>
+      <span id="save-tx-label">Save Transaction</span>
+    </button>
+    <button class="sheet-delete-btn" id="delete-tx-btn"
+            onclick="deleteTx()" style="display:none">Delete Transaction</button>
+    <div class="sheet-error" id="tx-error"></div>
+  </div>
+</div>
+
+<!-- Investment bottom sheet -->
+<div class="bottom-sheet" id="inv-sheet">
+  <div class="sheet-handle"></div>
+  <div class="sheet-header">
+    <div class="sheet-title" id="inv-sheet-title">Investment</div>
+    <button class="sheet-close" onclick="closeSheet()">✕</button>
+  </div>
+  <div class="sheet-body">
+    <div class="field">
+      <label>Name (SPY, Roth IRA, Fidelity…)</label>
+      <input type="text" id="inv-name" placeholder="e.g. SPY" maxlength="40">
+    </div>
+    <div class="field">
+      <label>Current Value</label>
+      <div class="amount-wrap">
+        <span class="amount-prefix">$</span>
+        <input type="number" id="inv-value" min="0" step="0.01"
+               placeholder="0.00" inputmode="decimal">
+      </div>
+    </div>
+    <div class="field">
+      <label>Last Checked</label>
+      <input type="date" id="inv-date">
+    </div>
+    <button class="sheet-save-btn" id="save-inv-btn" onclick="saveInv()">
+      <div class="saving-spinner" id="inv-spinner"></div>
+      <span id="save-inv-label">Save Investment</span>
+    </button>
+    <div class="sheet-error" id="inv-error"></div>
+  </div>
+</div>
+
+<script>
+// ── Config ───────────────────────────────────────────────
+const OWNER       = 'neely';
+const REPO        = 'kid-bank';
+const BRANCH      = 'main';
+const LEDGER_PATH = 'ledger.json';
+const INV_PATH    = 'investments.json';
+const RAW_BASE    = `https://raw.githubusercontent.com/${OWNER}/${REPO}/${BRANCH}`;
+const API_BASE    = `https://api.github.com/repos/${OWNER}/${REPO}/contents`;
+
+const KIDS = {
+  adam:    { color: '#4a9eff', label: 'Adam',    init: 'A' },
+  greer:   { color: '#c44aff', label: 'Greer',   init: 'G' },
+  william: { color: '#ff8c4a', label: 'William', init: 'W' },
+};
+
+// ── State ────────────────────────────────────────────────
+let PAT         = '';
+let ledger      = [];
+let investments = {};
+let activeKid   = null;
+let editingTx   = null;   // transaction being edited (null = add mode)
+let txType      = 'deposit';
+const today     = new Date();
+
+// ── PAT Gate ─────────────────────────────────────────────
+async function submitPat() {
+  const val = document.getElementById('pat-input').value.trim();
+  if (!val) { showGateError('Please enter your token.'); return; }
+
+  // Validate by attempting to fetch the ledger
+  document.getElementById('gate-error').textContent = 'Verifying…';
+  try {
+    const res = await fetch(`${API_BASE}/${LEDGER_PATH}`, {
+      headers: { Authorization: `Bearer ${val}`, Accept: 'application/vnd.github+json' }
+    });
+    if (res.status === 401) { showGateError('Invalid token.'); return; }
+    if (!res.ok) throw new Error(`Status ${res.status}`);
+    PAT = val;
+    sessionStorage.setItem('nfb_pat', PAT);
+    document.getElementById('pat-gate').classList.add('hidden');
+    document.getElementById('app').style.visibility = '';
+    await loadData();
+  } catch (e) {
+    showGateError('Could not verify token. Check connection.');
+  }
+}
+
+function showGateError(msg) {
+  document.getElementById('gate-error').textContent = msg;
+}
+
+// Check sessionStorage on load
+window.addEventListener('DOMContentLoaded', () => {
+  const stored = sessionStorage.getItem('nfb_pat');
+  if (stored) {
+    PAT = stored;
+    document.getElementById('pat-gate').classList.add('hidden');
+    document.getElementById('app').style.visibility = '';
+    loadData();
+  }
+  // Default date fields to today
+  const todayStr = toDateStr(today);
+  document.getElementById('f-date').value   = todayStr;
+  document.getElementById('inv-date').value = todayStr;
+});
+
+document.getElementById('pat-input').addEventListener('keydown', e => {
+  if (e.key === 'Enter') submitPat();
+});
+
+// ── GitHub API helpers ────────────────────────────────────
+async function ghGet(path) {
+  const res = await fetch(`${API_BASE}/${path}`, {
+    headers: { Authorization: `Bearer ${PAT}`, Accept: 'application/vnd.github+json' }
+  });
+  if (!res.ok) throw new Error(`GET ${path} failed: ${res.status}`);
+  return res.json();
+}
+
+async function ghPut(path, content, sha, message) {
+  const body = {
+    message,
+    content: btoa(unescape(encodeURIComponent(JSON.stringify(content, null, 2)))),
+    branch: BRANCH,
+  };
+  if (sha) body.sha = sha;
+  const res = await fetch(`${API_BASE}/${path}`, {
+    method: 'PUT',
+    headers: {
+      Authorization: `Bearer ${PAT}`,
+      Accept: 'application/vnd.github+json',
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify(body),
+  });
+  if (!res.ok) {
+    const err = await res.json().catch(() => ({}));
+    throw new Error(err.message || `PUT failed: ${res.status}`);
+  }
+  return res.json();
+}
+
+// Fetch file returning { data, sha }
+async function fetchFile(path) {
+  const resp = await ghGet(path);
+  const data = JSON.parse(decodeURIComponent(escape(atob(resp.content))));
+  return { data, sha: resp.sha };
+}
+
+// ── Data loading ──────────────────────────────────────────
+async function loadData() {
+  try {
+    const [ledgerFile, invFile] = await Promise.all([
+      fetchFile(LEDGER_PATH),
+      fetchFile(INV_PATH).catch(() => ({ data: [], sha: null })),
+    ]);
+    ledger = ledgerFile.data;
+    ledger.forEach(t => { t.date = t.date.slice(0, 10); });
+    investments = {};
+    invFile.data.forEach(i => { investments[i.kid] = i; });
+    renderLanding();
+    if (activeKid) refreshDetail();
+  } catch (e) {
+    document.getElementById('landing-body').innerHTML = `
+      <div class="error-state">
+        <div>Could not load data.</div>
+        <div style="font-size:11px;opacity:0.6">${escHtml(e.message)}</div>
+        <button class="retry-btn" onclick="loadData()">Try again</button>
+      </div>`;
+  }
+}
+
+// ── Balance ───────────────────────────────────────────────
+function calcBalance(kid) {
+  return ledger
+    .filter(t => t.kid === kid)
+    .sort((a, b) => a.date.localeCompare(b.date) || a.seq - b.seq)
+    .reduce((bal, t) => t.type === 'deposit' ? bal + t.amount : bal - t.amount, 0);
+}
+
+// ── Formatting ────────────────────────────────────────────
+function fmt(n) {
+  return '$' + Math.abs(n).toLocaleString('en-US', {
+    minimumFractionDigits: 2, maximumFractionDigits: 2
+  });
+}
+function toDateStr(d) {
+  return d.toISOString().slice(0, 10);
+}
+function relDate(dateStr) {
+  const d = new Date(dateStr + 'T00:00:00');
+  const diff = Math.floor((today - d) / 86400000);
+  if (diff === 0) return 'Today';
+  if (diff === 1) return 'Yesterday';
+  if (diff < 7)   return `${diff} days ago`;
+  return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+}
+function groupLabel(dateStr) {
+  const d = new Date(dateStr + 'T00:00:00');
+  const diff = Math.floor((today - d) / 86400000);
+  if (diff < 7)  return 'This Week';
+  if (diff < 14) return 'Last Week';
+  return d.toLocaleDateString('en-US', { month: 'long', year: 'numeric' });
+}
+function fmtChecked(dateStr) {
+  if (!dateStr) return '';
+  return new Date(dateStr + 'T00:00:00')
+    .toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+}
+function escHtml(str = '') {
+  return String(str)
+    .replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')
+    .replace(/"/g,'&quot;').replace(/'/g,'&#39;');
+}
+
+// ── Landing ───────────────────────────────────────────────
+function renderLanding() {
+  document.getElementById('landing-body').innerHTML =
+    Object.entries(KIDS).map(([key, kid]) => {
+      const bal = calcBalance(key);
+      const inv = investments[key];
+      return `
+      <div class="kid-card" style="--kid-color:${kid.color}" onclick="openKid('${key}')">
+        <div class="card-name">${kid.label}</div>
+        <div class="card-balance">${fmt(bal)}</div>
+        ${inv ? `<div class="card-investment">inv. <strong>${escHtml(inv.name)} ${fmt(inv.value)}</strong> · ${fmtChecked(inv.last_checked)}</div>` : ''}
+        <div class="card-chevron">›</div>
+      </div>`;
+    }).join('');
+}
+
+// ── Detail ────────────────────────────────────────────────
+function openKid(key) {
+  activeKid = key;
+  document.documentElement.style.setProperty('--active-color', KIDS[key].color);
+  refreshDetail();
+  document.getElementById('app').classList.add('detail-open');
+  document.getElementById('tx-list').scrollTop = 0;
+}
+
+function refreshDetail() {
+  const kid = KIDS[activeKid];
+  const inv = investments[activeKid];
+  const bal = calcBalance(activeKid);
+
+  document.getElementById('detail-initial').textContent = kid.init;
+  document.getElementById('detail-name').textContent    = kid.label;
+  document.getElementById('detail-balance').textContent = fmt(bal);
+  document.getElementById('detail-inv').innerHTML = inv
+    ? `inv. <strong>${escHtml(inv.name)} ${fmt(inv.value)}</strong> · ${fmtChecked(inv.last_checked)}`
+    : '';
+
+  // Style add button to kid color
+  document.querySelector('.add-tx-btn').style.background = kid.color;
+
+  renderTxList();
+}
+
+function goBack() {
+  document.getElementById('app').classList.remove('detail-open');
+  activeKid = null;
+}
+
+function renderTxList() {
+  const kid = KIDS[activeKid];
+  let txs = ledger
+    .filter(t => t.kid === activeKid)
+    .sort((a, b) => b.date.localeCompare(a.date) || b.seq - a.seq);
+
+  if (!txs.length) {
+    document.getElementById('tx-list').innerHTML =
+      `<div class="empty-state">No transactions yet.</div>`;
+    return;
+  }
+
+  let lastGroup = null;
+  document.getElementById('tx-list').innerHTML = txs.map(t => {
+    const group   = groupLabel(t.date);
+    const divider = group !== lastGroup ? `<div class="date-divider">${group}</div>` : '';
+    lastGroup = group;
+    const sign = t.type === 'deposit' ? '+' : '−';
+    return `
+    ${divider}
+    <div class="tx-row" onclick="openEditSheet('${escHtml(t.id)}')">
+      <div class="tx-dot">${kid.init}</div>
+      <div class="tx-info">
+        <div class="tx-desc">${escHtml(t.description)}</div>
+        <div class="tx-date">${relDate(t.date)}</div>
+      </div>
+      <div class="tx-amt ${t.type}">${sign}${fmt(t.amount)}</div>
+    </div>`;
+  }).join('');
+}
+
+// ── Bottom Sheet helpers ──────────────────────────────────
+function openSheet(sheetId) {
+  document.getElementById('sheet-backdrop').classList.add('open');
+  document.getElementById(sheetId).classList.add('open');
+}
+function closeSheet() {
+  document.getElementById('sheet-backdrop').classList.remove('open');
+  document.querySelectorAll('.bottom-sheet').forEach(s => s.classList.remove('open'));
+  document.getElementById('tx-error').textContent  = '';
+  document.getElementById('inv-error').textContent = '';
+}
+
+// ── Add transaction ───────────────────────────────────────
+function openAddSheet() {
+  editingTx = null;
+  document.getElementById('sheet-title').textContent = 'Add Transaction';
+  document.getElementById('f-amount').value = '';
+  document.getElementById('f-desc').value   = '';
+  document.getElementById('f-date').value   = toDateStr(today);
+  document.getElementById('delete-tx-btn').style.display = 'none';
+  document.getElementById('save-tx-label').textContent   = 'Save Transaction';
+  setType('deposit');
+  openSheet('tx-sheet');
+  setTimeout(() => document.getElementById('f-amount').focus(), 350);
+}
+
+// ── Edit transaction ──────────────────────────────────────
+function openEditSheet(txId) {
+  const tx = ledger.find(t => t.id === txId);
+  if (!tx) return;
+  editingTx = tx;
+  document.getElementById('sheet-title').textContent     = 'Edit Transaction';
+  document.getElementById('f-amount').value              = tx.amount;
+  document.getElementById('f-desc').value                = tx.description;
+  document.getElementById('f-date').value                = tx.date;
+  document.getElementById('delete-tx-btn').style.display = '';
+  document.getElementById('save-tx-label').textContent   = 'Save Changes';
+  setType(tx.type);
+  openSheet('tx-sheet');
+}
+
+function setType(type) {
+  txType = type;
+  const dep = document.getElementById('btn-deposit');
+  const wdr = document.getElementById('btn-withdrawal');
+  dep.className = 'type-btn' + (type === 'deposit'    ? ' active-deposit'    : '');
+  wdr.className = 'type-btn' + (type === 'withdrawal' ? ' active-withdrawal' : '');
+}
+
+// ── Save transaction ──────────────────────────────────────
+async function saveTx() {
+  const amount = parseFloat(document.getElementById('f-amount').value);
+  const desc   = document.getElementById('f-desc').value.trim();
+  const date   = document.getElementById('f-date').value;
+
+  if (!amount || amount <= 0) { document.getElementById('tx-error').textContent = 'Enter a valid amount.'; return; }
+  if (!desc)                  { document.getElementById('tx-error').textContent = 'Enter a description.';  return; }
+  if (!date)                  { document.getElementById('tx-error').textContent = 'Enter a date.';         return; }
+
+  setSaving('tx', true);
+
+  try {
+    const { data: currentLedger, sha } = await fetchFile(LEDGER_PATH);
+
+    if (editingTx) {
+      // Edit existing
+      const idx = currentLedger.findIndex(t => t.id === editingTx.id);
+      if (idx === -1) throw new Error('Transaction not found in current ledger.');
+      currentLedger[idx] = {
+        ...currentLedger[idx],
+        amount,
+        description: desc,
+        date,
+        type: txType,
+      };
+    } else {
+      // Add new
+      const kidTxs = currentLedger.filter(t => t.kid === activeKid);
+      const maxSeq = kidTxs.reduce((m, t) => Math.max(m, t.seq || 0), 0);
+      const newId  = `${activeKid}-${Date.now()}`;
+      currentLedger.push({
+        id: newId,
+        kid: activeKid,
+        date,
+        description: desc,
+        amount,
+        type: txType,
+        seq: maxSeq + 1,
+      });
+    }
+
+    await ghPut(LEDGER_PATH, currentLedger, sha,
+      `${editingTx ? 'Edit' : 'Add'} transaction for ${KIDS[activeKid].label}`);
+
+    ledger = currentLedger;
+    ledger.forEach(t => { t.date = t.date.slice(0, 10); });
+    closeSheet();
+    refreshDetail();
+    renderLanding();
+  } catch (e) {
+    document.getElementById('tx-error').textContent = e.message || 'Save failed.';
+  } finally {
+    setSaving('tx', false);
+  }
+}
+
+// ── Delete transaction ────────────────────────────────────
+async function deleteTx() {
+  if (!editingTx) return;
+  if (!confirm(`Delete "${editingTx.description}"? This cannot be undone.`)) return;
+
+  setSaving('tx', true);
+
+  try {
+    const { data: currentLedger, sha } = await fetchFile(LEDGER_PATH);
+    const filtered = currentLedger.filter(t => t.id !== editingTx.id);
+    await ghPut(LEDGER_PATH, filtered, sha,
+      `Delete transaction ${editingTx.id} for ${KIDS[activeKid].label}`);
+
+    ledger = filtered;
+    ledger.forEach(t => { t.date = t.date.slice(0, 10); });
+    closeSheet();
+    refreshDetail();
+    renderLanding();
+  } catch (e) {
+    document.getElementById('tx-error').textContent = e.message || 'Delete failed.';
+  } finally {
+    setSaving('tx', false);
+  }
+}
+
+// ── Investment sheet ──────────────────────────────────────
+function openInvSheet() {
+  const inv = investments[activeKid];
+  document.getElementById('inv-sheet-title').textContent =
+    `${KIDS[activeKid].label}'s Investment`;
+  document.getElementById('inv-name').value  = inv ? inv.name  : '';
+  document.getElementById('inv-value').value = inv ? inv.value : '';
+  document.getElementById('inv-date').value  = inv ? inv.last_checked : toDateStr(today);
+  openSheet('inv-sheet');
+  setTimeout(() => document.getElementById('inv-name').focus(), 350);
+}
+
+async function saveInv() {
+  const name  = document.getElementById('inv-name').value.trim();
+  const value = parseFloat(document.getElementById('inv-value').value);
+  const date  = document.getElementById('inv-date').value;
+
+  if (!name)              { document.getElementById('inv-error').textContent = 'Enter a name.';  return; }
+  if (isNaN(value))       { document.getElementById('inv-error').textContent = 'Enter a value.'; return; }
+  if (!date)              { document.getElementById('inv-error').textContent = 'Enter a date.';  return; }
+
+  setSaving('inv', true);
+
+  try {
+    const { data: currentInv, sha } = await fetchFile(INV_PATH)
+      .catch(() => ({ data: [], sha: null }));
+
+    const idx = currentInv.findIndex(i => i.kid === activeKid);
+    const entry = { kid: activeKid, name, value, last_checked: date };
+    if (idx >= 0) currentInv[idx] = entry;
+    else currentInv.push(entry);
+
+    await ghPut(INV_PATH, currentInv, sha,
+      `Update investment for ${KIDS[activeKid].label}`);
+
+    investments[activeKid] = entry;
+    closeSheet();
+    refreshDetail();
+    renderLanding();
+  } catch (e) {
+    document.getElementById('inv-error').textContent = e.message || 'Save failed.';
+  } finally {
+    setSaving('inv', false);
+  }
+}
+
+// ── Saving state ──────────────────────────────────────────
+function setSaving(which, saving) {
+  const btn     = document.getElementById(`save-${which}-btn`);
+  const spinner = document.getElementById(`${which}-spinner`);
+  const label   = document.getElementById(`save-${which}-label`);
+  btn.disabled         = saving;
+  spinner.style.display = saving ? 'block' : 'none';
+  label.style.opacity   = saving ? '0' : '1';
+}
+</script>
+</body>
+</html>
