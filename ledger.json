@@ -808,5 +808,14 @@
     "amount": 13.9,
     "type": "withdrawal",
     "seq": 21
+  },
+  {
+    "id": "william-1777213401805",
+    "kid": "william",
+    "date": "2025-08-24",
+    "description": "Hot wheels",
+    "amount": 10,
+    "type": "withdrawal",
+    "seq": 22
   }
 ]
