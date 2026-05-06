@@ -844,5 +844,14 @@
     "amount": 16.34,
     "type": "withdrawal",
     "seq": 25
+  },
+  {
+    "id": "greer-1778027329315",
+    "kid": "greer",
+    "date": "2026-05-01",
+    "description": "Pink Headphones",
+    "amount": 21.75,
+    "type": "withdrawal",
+    "seq": 29
   }
 ]
