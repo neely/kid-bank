@@ -853,5 +853,14 @@
     "amount": 0.75,
     "type": "withdrawal",
     "seq": 29
+  },
+  {
+    "id": "adam-1778442210338",
+    "kid": "adam",
+    "date": "2026-05-10",
+    "description": "Soft serve at market",
+    "amount": 7,
+    "type": "withdrawal",
+    "seq": 39
   }
 ]
