@@ -871,5 +871,14 @@
     "amount": 7,
     "type": "withdrawal",
     "seq": 26
+  },
+  {
+    "id": "adam-1778446942426",
+    "kid": "adam",
+    "date": "2026-05-10",
+    "description": "Bright light pastry",
+    "amount": 3.5,
+    "type": "withdrawal",
+    "seq": 40
   }
 ]
