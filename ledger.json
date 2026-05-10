@@ -862,5 +862,14 @@
     "amount": 7,
     "type": "withdrawal",
     "seq": 39
+  },
+  {
+    "id": "william-1778442222401",
+    "kid": "william",
+    "date": "2026-05-10",
+    "description": "Soft serve at market",
+    "amount": 7,
+    "type": "withdrawal",
+    "seq": 26
   }
 ]
