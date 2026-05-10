@@ -889,5 +889,14 @@
     "amount": 3.5,
     "type": "withdrawal",
     "seq": 30
+  },
+  {
+    "id": "william-1778446970052",
+    "kid": "william",
+    "date": "2026-05-10",
+    "description": "Bright light pastry",
+    "amount": 3.5,
+    "type": "withdrawal",
+    "seq": 27
   }
 ]
