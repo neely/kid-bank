@@ -907,5 +907,14 @@
     "amount": 4,
     "type": "withdrawal",
     "seq": 31
+  },
+  {
+    "id": "william-1778791435615",
+    "kid": "william",
+    "date": "2026-05-13",
+    "description": "Target lego",
+    "amount": 21.78,
+    "type": "withdrawal",
+    "seq": 28
   }
 ]
