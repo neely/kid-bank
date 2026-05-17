@@ -925,14 +925,5 @@
     "amount": 5,
     "type": "withdrawal",
     "seq": 32
-  },
-  {
-    "id": "william-1779035662534",
-    "kid": "william",
-    "date": "2026-05-17",
-    "description": "Urban zone",
-    "amount": 10,
-    "type": "withdrawal",
-    "seq": 29
   }
 ]
