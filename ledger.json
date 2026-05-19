@@ -925,5 +925,14 @@
     "amount": 5,
     "type": "withdrawal",
     "seq": 32
+  },
+  {
+    "id": "greer-1779220469627",
+    "kid": "greer",
+    "date": "2026-05-19",
+    "description": "Hair bow",
+    "amount": 5,
+    "type": "withdrawal",
+    "seq": 33
   }
 ]
