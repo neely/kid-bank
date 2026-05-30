@@ -934,5 +934,14 @@
     "amount": 5,
     "type": "withdrawal",
     "seq": 33
+  },
+  {
+    "id": "william-1780162950835",
+    "kid": "william",
+    "date": "2026-05-29",
+    "description": "Pizza",
+    "amount": 10,
+    "type": "withdrawal",
+    "seq": 29
   }
 ]
