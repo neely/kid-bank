@@ -952,5 +952,14 @@
     "amount": 88.99,
     "type": "withdrawal",
     "seq": 30
+  },
+  {
+    "id": "greer-1780260356760",
+    "kid": "greer",
+    "date": "2026-05-31",
+    "description": "Summer workbook",
+    "amount": 14.16,
+    "type": "withdrawal",
+    "seq": 34
   }
 ]
