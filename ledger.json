@@ -961,5 +961,14 @@
     "amount": 14.16,
     "type": "withdrawal",
     "seq": 34
+  },
+  {
+    "id": "adam-1780267495546",
+    "kid": "adam",
+    "date": "2026-05-28",
+    "description": "Cash",
+    "amount": 20,
+    "type": "withdrawal",
+    "seq": 41
   }
 ]
