@@ -943,5 +943,14 @@
     "amount": 10,
     "type": "withdrawal",
     "seq": 29
+  },
+  {
+    "id": "william-1780235888298",
+    "kid": "william",
+    "date": "2026-05-31",
+    "description": "3 Lego sets from amazon",
+    "amount": 88.99,
+    "type": "withdrawal",
+    "seq": 30
   }
 ]
