@@ -970,5 +970,14 @@
     "amount": 20,
     "type": "withdrawal",
     "seq": 41
+  },
+  {
+    "id": "adam-1780539055854",
+    "kid": "adam",
+    "date": "2026-06-04",
+    "description": "William sitting",
+    "amount": 20,
+    "type": "withdrawal",
+    "seq": 42
   }
 ]
