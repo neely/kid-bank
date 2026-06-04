@@ -977,7 +977,7 @@
     "date": "2026-06-04",
     "description": "William sitting",
     "amount": 20,
-    "type": "withdrawal",
+    "type": "deposit",
     "seq": 42
   }
 ]
