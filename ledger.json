@@ -970,5 +970,14 @@
     "amount": 20,
     "type": "withdrawal",
     "seq": 41
+  },
+  {
+    "id": "adam-1781405768451",
+    "kid": "adam",
+    "date": "2026-06-14",
+    "description": "Baby sitting",
+    "amount": 25,
+    "type": "deposit",
+    "seq": 42
   }
 ]
