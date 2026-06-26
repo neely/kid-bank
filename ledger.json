@@ -979,5 +979,14 @@
     "amount": 25,
     "type": "deposit",
     "seq": 42
+  },
+  {
+    "id": "adam-1782472975319",
+    "kid": "adam",
+    "date": "2026-06-26",
+    "description": "Steam sale",
+    "amount": 11,
+    "type": "withdrawal",
+    "seq": 43
   }
 ]
