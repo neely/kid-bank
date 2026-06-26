@@ -988,5 +988,14 @@
     "amount": 11,
     "type": "withdrawal",
     "seq": 43
+  },
+  {
+    "id": "william-1782473372767",
+    "kid": "william",
+    "date": "2026-06-22",
+    "description": "Scout trooper helmet",
+    "amount": 76.29,
+    "type": "withdrawal",
+    "seq": 31
   }
 ]
